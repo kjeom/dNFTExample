@@ -7,7 +7,7 @@ const func: DeployFunction = async (hre: HardhatRuntimeEnvironment) => {
   const { deploy } = deployments;
   const { deployer } = await getNamedAccounts();
 
-  await deploy("Counter", {
+  await deploy("KdynamicNFT", {
     from: deployer,
     gasLimit: 4000000,
     args: [],
@@ -15,6 +15,6 @@ const func: DeployFunction = async (hre: HardhatRuntimeEnvironment) => {
   });
 };
 
-func.tags = ["Counter"];
+func.tags = ["KdynamicNFT"];
 // func.dependencies = ["Lock"]; // this ensures Lock is deployed before Counter
 export default func;

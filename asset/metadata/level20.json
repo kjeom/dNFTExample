@@ -1,0 +1,28 @@
+{
+    "name": "Klaytn Hackerhouse dynamic NFT example",
+    "description": "level20",
+    "image": "https://https://github.com/kjeom/dNFTExample/asset/image/level20.png",
+    "year": "2023",
+    "attributes": [
+        {
+            "trait_type": "city",
+            "value": "Seoul"
+        },
+        {
+            "trait_type": "country",
+            "value": "South Korea"
+        },
+        {
+            "trait_type": "eventUrl",
+            "value": "https://klaytn.foundation/hackerhouse-2023/"
+        },
+        {
+            "trait_type": "level",
+            "value": "20"
+        },
+        {
+            "trait_type": "power",
+            "value": "300"
+        }
+    ]
+}
